@@ -5,7 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1-U9-DesarrolloInterfaces", "EjsU9-DesarrolloInterfaces\Ej1-U9-DesarrolloInterfaces.csproj", "{E7DA9955-1211-41C8-848B-4E48C2EDE1C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2-U9-DesarrolloInterfaces", "Ej2-U9-DesarrolloInterfaces\Ej2-U9-DesarrolloInterfaces.csproj", "{D9734CC5-DCA3-4DC9-A4C3-FF2FC11EE73A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej2-U9-DesarrolloInterfaces", "Ej2-U9-DesarrolloInterfaces\Ej2-U9-DesarrolloInterfaces.csproj", "{D9734CC5-DCA3-4DC9-A4C3-FF2FC11EE73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bibliotecaEj3", "bibliotecaEj3\bibliotecaEj3.csproj", "{D4FE8E79-D509-4235-91D4-42CE7999063C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej3-U9-DesarrolloInterfacess", "Ej3-U9-DesarrolloInterfacess\Ej3-U9-DesarrolloInterfacess.csproj", "{E538146B-BE6D-44D7-8C96-6BB62D02225F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,16 @@ Global
 		{D9734CC5-DCA3-4DC9-A4C3-FF2FC11EE73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9734CC5-DCA3-4DC9-A4C3-FF2FC11EE73A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D9734CC5-DCA3-4DC9-A4C3-FF2FC11EE73A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D4FE8E79-D509-4235-91D4-42CE7999063C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FE8E79-D509-4235-91D4-42CE7999063C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FE8E79-D509-4235-91D4-42CE7999063C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FE8E79-D509-4235-91D4-42CE7999063C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E538146B-BE6D-44D7-8C96-6BB62D02225F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E538146B-BE6D-44D7-8C96-6BB62D02225F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E538146B-BE6D-44D7-8C96-6BB62D02225F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E538146B-BE6D-44D7-8C96-6BB62D02225F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E538146B-BE6D-44D7-8C96-6BB62D02225F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E538146B-BE6D-44D7-8C96-6BB62D02225F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

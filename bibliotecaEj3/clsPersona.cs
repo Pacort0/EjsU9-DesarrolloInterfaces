@@ -1,9 +1,6 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-
-namespace Ej2_U9_DesarrolloInterfaces.Models
+﻿namespace bibliotecaEj3
 {
-    public class clsPersona: INotifyPropertyChanged
+    public class clsPersona
     {
         #region atributos
         private string nombre;
@@ -12,7 +9,8 @@ namespace Ej2_U9_DesarrolloInterfaces.Models
         #endregion
 
         #region constructores
-        public clsPersona() {
+        public clsPersona()
+        {
             nombre = "Paco";
         }
 
@@ -28,27 +26,20 @@ namespace Ej2_U9_DesarrolloInterfaces.Models
         public int Id
         {
             get { return id; }
-            set { id = value; } 
+            set { id = value; }
         }
         public string Nombre
         {
             get { return nombre; }
-            set { nombre = value;
-                OnPropertyChanged();
-            }
+            set
+            {
+                nombre = value;}
         }
         public string Apellidos
         {
             get { return apellidos; }
-            set { apellidos = value;}
+            set { apellidos = value; }
         }
-
-        private void OnPropertyChanged([CallerMemberName] string atributo = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(atributo));
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
         #endregion
     }
 }

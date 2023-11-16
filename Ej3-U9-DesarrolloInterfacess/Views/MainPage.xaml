@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej3_U9_DesarrolloInterfacess.MainPage"
+             xmlns:modelos="clr-namespace:Ej3_U9_DesarrolloInterfaces.Models.ViewModels">
+    <ContentPage.BindingContext>
+        <modelos:clsPersonaVM/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout VerticalOptions="Center">
+        <Label x:Name="lblEj2" Text="{Binding Nombre}"/>
+        <Entry x:Name="entryEj2" Text="{Binding Nombre}"/>
+    </VerticalStackLayout>
+</ContentPage>

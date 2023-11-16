@@ -4,8 +4,8 @@
              x:Class="EjsU9_DesarrolloInterfaces.MainPage">
 
     <VerticalStackLayout>
-        <Slider x:Name="sliderEj1" Minimum="8" Maximum="60"/>
-        <Entry x:Name="entryEj1" BindingContext="{x:Reference sliderEj1}"  IsReadOnly="True" Text="{Binding Path=Value, StringFormat='{0:F0}'}" />
+        <Slider x:Name="sliderEj1" Minimum="1" Maximum="60"/>
+        <Entry x:Name="entryEj1" BindingContext="{x:Reference sliderEj1}" Keyboard="Numeric" Text="{Binding Mode=TwoWay, Path=Value, StringFormat='{0:F0}'}" />
         <Label x:Name="lblEj1" FontSize="{Binding Path=Value}" BindingContext="{x:Reference sliderEj1}" Text="Texto Genérico"/>
     </VerticalStackLayout>
 
