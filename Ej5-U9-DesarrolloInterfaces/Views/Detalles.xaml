@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej5_U9_DesarrolloInterfaces.Views.Detalles"
+             Title="Detalles">
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Border Stroke="black" StrokeThickness="2">
+            <HorizontalStackLayout>
+                <Image Source="{Binding ImageURL}" WidthRequest="250" HeightRequest="250"/>
+            </HorizontalStackLayout>
+        </Border>
+        <VerticalStackLayout>
+            <Label Text="{Binding Nombre}"/>
+            <Label Text="{Binding Apellidos}"/>
+            <Label Text="{Binding FechaNac}"/>
+            <Label Text="{Binding Direccion}"/>
+            <Label Text="{Binding FechaNac}"/>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
