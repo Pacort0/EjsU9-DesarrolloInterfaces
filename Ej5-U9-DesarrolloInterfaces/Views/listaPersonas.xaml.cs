@@ -11,6 +11,5 @@ public partial class listaPersonas : ContentPage
     private void listaDePersonas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
     {
         Navigation.PushAsync(new Detalles() { BindingContext = e.SelectedItem as clsPersona });
-
     }
 }

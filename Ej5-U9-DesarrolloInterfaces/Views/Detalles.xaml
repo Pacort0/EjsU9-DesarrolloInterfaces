@@ -14,7 +14,7 @@
             <Label Text="{Binding Apellidos}"/>
             <Label Text="{Binding FechaNac}"/>
             <Label Text="{Binding Direccion}"/>
-            <Label Text="{Binding FechaNac}"/>
+            <Label Text="{Binding Telefono}"/>
         </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
