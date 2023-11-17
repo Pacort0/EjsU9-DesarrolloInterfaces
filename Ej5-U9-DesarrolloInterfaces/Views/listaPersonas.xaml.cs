@@ -8,8 +8,9 @@ public partial class listaPersonas : ContentPage
 	{
 		InitializeComponent();
 	}
-    private void listaDePersonas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+
+    private async void listaDePersonas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
     {
-        Navigation.PushAsync(new Detalles() { BindingContext = e.SelectedItem as clsPersona });
+		await Navigation.PushAsync(new Detalles { BindingContext = e.SelectedItem });
     }
 }

@@ -9,7 +9,7 @@
     </ContentPage.BindingContext>
     <ScrollView>
     <VerticalStackLayout>
-            <ListView x:Name="listaDePersonas" ItemsSource="{Binding ListaPersonas}" ItemSelected="listaDePersonas_ItemSelected"
+            <ListView x:Name="listaDePersonas" ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding Persona}" ItemSelected="listaDePersonas_ItemSelected"
                       WidthRequest="600" BackgroundColor="#F8F4F4">
                 <ListView.ItemTemplate>
                     <DataTemplate>

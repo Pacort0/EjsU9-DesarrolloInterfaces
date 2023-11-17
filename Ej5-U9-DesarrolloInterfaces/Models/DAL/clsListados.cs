@@ -5,6 +5,10 @@ namespace Ej5_U9_DesarrolloInterfaces.Models.DAL
 {
     internal static class clsListados
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static ObservableCollection<clsPersona> listadoPersonas()
         {
             ObservableCollection<clsPersona> listaPersonas = new ObservableCollection<clsPersona>()

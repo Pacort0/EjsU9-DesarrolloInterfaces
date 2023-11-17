@@ -27,10 +27,11 @@ namespace Ej4_U9_DesarrolloInterfaces.ViewModels
             set
             {
                 nombre = value;
-                OnPropertyChanged();
+  
                 if (nombre.EndsWith("n") || nombre.EndsWith("N")) 
                 {
-                    Apellidos = string.Empty;
+                    apellidos = string.Empty;
+                    OnPropertyChanged("Apellidos");
                 }
             }
         }
@@ -40,10 +41,10 @@ namespace Ej4_U9_DesarrolloInterfaces.ViewModels
             set
             {
                 apellidos = value;
-                OnPropertyChanged();
                 if (apellidos.EndsWith("n") || apellidos.EndsWith("N"))
                 {
-                    Nombre = string.Empty;
+                    nombre = string.Empty;
+                    OnPropertyChanged("Nombre");
                 }
             }
         }
