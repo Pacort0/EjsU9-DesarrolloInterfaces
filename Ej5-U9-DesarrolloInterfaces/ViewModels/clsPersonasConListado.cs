@@ -1,4 +1,4 @@
-﻿using bibliotecaEj3;
+﻿    using bibliotecaEj3;
 using Ej5_U9_DesarrolloInterfaces.Models.DAL;
 using Ej5_U9_DesarrolloInterfaces.Views;
 using System.Collections.ObjectModel;
@@ -39,7 +39,7 @@ namespace Ej5_U9_DesarrolloInterfaces.ViewModels
 
                 OnPropertyChanged();
 
-                OnTapped(persona);
+                OnTapped(Persona);
             }
         }
 
